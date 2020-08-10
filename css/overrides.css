@@ -45,6 +45,12 @@ body,
 	font-size: 19px;
 }
 
+.reveal .text-cover {
+	font-size: 20px !important;  
+	text-align: center !important;
+	line-height: 1.5 !important;
+}
+
 .reveal a {
 	color: #007CE1;
 }
@@ -92,7 +98,13 @@ section.has-light-background {
 	border: none;
 	box-shadow: none;
 	margin-right: 30px;
-	width: 150px;
+	width: 200px;
+}
+.reveal section .logos_big img {
+	background: none;
+	border: none;
+	box-shadow: none;
+	width: 300px;
 }
 .reveal section .logos img:last-child {
 	margin-right: 0;
@@ -145,6 +157,11 @@ section.has-light-background {
 		text-align: left;
 		line-height: 1.5;
 	}
+	.reveal .text-cover {
+		font-size: 15px !important;  
+		text-align: center !important;
+		line-height: 1.5 !important;
+	}
 	
 	/* for slides with lots of text */
 	.reveal .long-para {
@@ -186,6 +203,19 @@ section.has-light-background {
 	.reveal .sm-mobile {
 		font-size: 15px !important;
 	}
+	.reveal section .logos img {
+		background: none;
+		border: none;
+		box-shadow: none;
+		margin-right: 30px;
+		width: 100px;
+	}
+	.reveal section .logos_big {
+		background: none;
+		border: none;
+		box-shadow: none;
+		width: 200px;
+	}
 
 }
 
@@ -193,5 +223,9 @@ section.has-light-background {
 .ml-toggle {
 	position: absolute;
 	right: 0;
-	bottom: 500px;
+	bottom: 525px;
+}
+.reveal .text-toggle {
+	font-size: 22px; 
+	line-height: 1.5;
 }
