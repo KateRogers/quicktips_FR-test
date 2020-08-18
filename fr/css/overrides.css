@@ -101,7 +101,7 @@ section.has-light-background {
 	background: none;
 	border: none;
 	box-shadow: none;
-	width: 300px;
+	width: 250px;
 }
 .reveal section .logos img:last-child {
 	margin-right: 0;
@@ -255,7 +255,7 @@ section.has-light-background {
 .ml-toggle {
 	position: absolute;
 	right: 0;
-	bottom: 525px;
+	bottom: 550px;
 }
 .reveal .text-toggle {
 	font-size: 22px; 
